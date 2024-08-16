@@ -11,9 +11,12 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       home page
-      <div>
+      <div className="flex gap-1">
         <Link href="quiz">
-          <Button>Go to quiz</Button>
+          <Button>Verbs list</Button>
+        </Link>
+        <Link href="carousel">
+          <Button>Test</Button>
         </Link>
       </div>
     </main>
